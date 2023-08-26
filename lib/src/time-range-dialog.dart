@@ -15,7 +15,7 @@ showTimeRangePicker({
   TimeOfDay? end,
 
   /// disabled time range (this time cannot be selected)
-  List<TimeRange?>? disabledTime,
+  List<TimeRange?>? disabledTimes,
 
   /// the color for the disabled section
   Color? disabledColor,
@@ -130,7 +130,7 @@ showTimeRangePicker({
       child: TimeRangePicker(
         start: start,
         end: end,
-        disabledTimes: disabledTime,
+        disabledTimes: disabledTimes,
         paintingStyle: paintingStyle,
         onStartChange: onStartChange,
         onEndChange: onEndChange,

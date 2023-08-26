@@ -140,7 +140,7 @@ class _MyHomePageState extends State<MyHomePage> {
                 context: context,
                 start: const TimeOfDay(hour: 9, minute: 0),
                 end: const TimeOfDay(hour: 12, minute: 0),
-                disabledTime: [TimeRange(
+                disabledTimes: [TimeRange(
                     startTime: const TimeOfDay(hour: 22, minute: 0),
                     endTime: const TimeOfDay(hour: 5, minute: 0)),],
                 disabledColor: Colors.red.withOpacity(0.5),
@@ -192,7 +192,7 @@ class _MyHomePageState extends State<MyHomePage> {
               ticksColor: Theme.of(context).primaryColor,
               labelOffset: 15,
               padding: 60,
-              disabledTime: [TimeRange(
+              disabledTimes: [TimeRange(
                   startTime: const TimeOfDay(hour: 18, minute: 0),
                   endTime: const TimeOfDay(hour: 7, minute: 0))],
               disabledColor: Colors.red.withOpacity(0.5),
@@ -281,7 +281,7 @@ class _MyHomePageState extends State<MyHomePage> {
               labelStyle: const TextStyle(fontSize: 18, color: Colors.black),
               start: const TimeOfDay(hour: 12, minute: 0),
               end: const TimeOfDay(hour: 15, minute: 0),
-              disabledTime: [TimeRange(
+              disabledTimes: [TimeRange(
                   startTime: const TimeOfDay(hour: 6, minute: 0),
                   endTime: const TimeOfDay(hour: 10, minute: 0))],
               clockRotation: 180.0,
@@ -318,7 +318,7 @@ class _MyHomePageState extends State<MyHomePage> {
               padding: 55,
               start: const TimeOfDay(hour: 12, minute: 0),
               end: const TimeOfDay(hour: 18, minute: 0),
-              disabledTime: [TimeRange(
+              disabledTimes: [TimeRange(
                 startTime: const TimeOfDay(hour: 4, minute: 0),
                 endTime: const TimeOfDay(hour: 10, minute: 0),
               )],
@@ -356,7 +356,7 @@ class _MyHomePageState extends State<MyHomePage> {
               padding: 55,
               start: const TimeOfDay(hour: 12, minute: 0),
               end: const TimeOfDay(hour: 18, minute: 0),
-              disabledTime: [TimeRange(
+              disabledTimes: [TimeRange(
                 startTime: const TimeOfDay(hour: 4, minute: 0),
                 endTime: const TimeOfDay(hour: 10, minute: 0),
               )],
